@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Shimla Getaway",
+    "description": "Wander through colonial streets and pine forests in this charming hill town.",
+    "image": "/images/shimla.jpg",
+    "gallery": [
+      "/images/shimla1.jpg",
+      "/images/shimla2.jpg",
+      "/images/shimla3.jpg",
+      "/images/shimla4.jpg",
+      "/images/shimla5.jpg",
+      "/images/shimla6.jpg"
+    ]
+  },
+  {
+    "name": "Udaipur Romantic Escape",
+    "description": "Sail across serene lakes and explore royal palaces in the city of lakes.",
+    "image": "/images/udaipur.jpg",
+    "gallery": [
+      "/images/udaipur1.jpg",
+      "/images/udaipur2.jpg",
+      "/images/udaipur3.jpg",
+      "/images/udaipur4.jpg",
+      "/images/udaipur5.jpg",
+      "/images/udaipur6.jpg"
+    ]
+  },
+  {
+    "name": "Mysore Heritage Walk",
+    "description": "Discover regal history, markets, and grand architecture in Mysore.",
+    "image": "/images/mysore.jpg",
+    "gallery": [
+      "/images/mysore1.jpg",
+      "/images/mysore2.jpg",
+      "/images/mysore3.jpg",
+      "/images/mysore4.jpg",
+      "/images/mysore5.jpg",
+      "/images/mysore6.jpg"
+    ]
+  },
+  {
+    "name": "Madurai Temple Tour",
+    "description": "Marvel at Dravidian architecture and spiritual sites in Madurai.",
+    "image": "/images/madurai.jpg",
+    "gallery": [
+      "/images/madurai1.jpg",
+      "/images/madurai2.jpg",
+      "/images/madurai3.jpg",
+      "/images/madurai4.jpg",
+      "/images/madurai5.jpg",
+      "/images/madurai6.jpg"
+    ]
+  },
+  {
+    "name": "Tirupati Pilgrimage",
+    "description": "Seek blessings at one of India's most sacred pilgrimage destinations.",
+    "image": "/images/tirupati.jpg",
+    "gallery": [
+      "/images/tirupati1.jpg",
+      "/images/tirupati2.jpg",
+      "/images/tirupati3.jpg",
+      "/images/tirupati4.jpg",
+      "/images/tirupati5.jpg",
+      "/images/tirupati6.jpg"
+    ]
+  },
+  {
+    "name": "Pondicherry French Escape",
+    "description": "Experience colonial charm, calm beaches, and spiritual vibes in Pondicherry.",
+    "image": "/images/pondicherry.jpg",
+    "gallery": [
+      "/images/pondicherry1.jpg",
+      "/images/pondicherry2.jpg",
+      "/images/pondicherry3.jpg",
+      "/images/pondicherry4.jpg",
+      "/images/pondicherry5.jpg",
+      "/images/pondicherry6.jpg"
+    ]
+  },
+  {
+    "name": "Mumbai City Life",
+    "description": "Feel the energy of India’s financial capital, full of culture and coastline.",
+    "image": "/images/mumbai.jpg",
+    "gallery": [
+      "/images/mumbai1.jpg",
+      "/images/mumbai2.jpg",
+      "/images/mumbai3.jpg",
+      "/images/mumbai4.jpg",
+      "/images/mumbai5.jpg",
+      "/images/mumbai6.jpg"
+    ]
+  },
+  {
+    "name": "Delhi Historical Tour",
+    "description": "Visit historic forts, mosques, and buzzing markets in India's capital city.",
+    "image": "/images/delhi.jpg",
+    "gallery": [
+      "/images/delhi1.jpg",
+      "/images/delhi2.jpg",
+      "/images/delhi3.jpg",
+      "/images/delhi4.jpg",
+      "/images/delhi5.jpg",
+      "/images/delhi6.jpg"
+    ]
+  },
+  {
+    "name": "Rishikesh Yoga Retreat",
+    "description": "Relax with yoga by the Ganges and adventure through rafting in Rishikesh.",
+    "image": "/images/rishikesh.jpg",
+    "gallery": [
+      "/images/rishikesh1.jpg",
+      "/images/rishikesh2.jpg",
+      "/images/rishikesh3.jpg",
+      "/images/rishikesh4.jpg",
+      "/images/rishikesh5.jpg",
+      "/images/rishikesh6.jpg"
+    ]
+  },
+  {
+    "name": "Haridwar Spiritual Tour",
+    "description": "Explore ancient temples and witness the divine Ganga Aarti at Haridwar.",
+    "image": "/images/haridwar.jpg",
+    "gallery": [
+      "/images/haridwar1.jpg",
+      "/images/haridwar2.jpg",
+      "/images/haridwar3.jpg",
+      "/images/haridwar4.jpg",
+      "/images/haridwar5.jpg",
+      "/images/haridwar6.jpg"
+    ]
+  },
+  {
+    "name": "Kanyakumari Sunset Tour",
+    "description": "Witness the union of seas and stunning sunsets in Kanyakumari.",
+    "image": "/images/kanyakumari.jpg",
+    "gallery": [
+      "/images/kanyakumari1.jpg",
+      "/images/kanyakumari2.jpg",
+      "/images/kanyakumari3.jpg",
+      "/images/kanyakumari4.jpg",
+      "/images/kanyakumari5.jpg",
+      "/images/kanyakumari6.jpg"
+    ]
+  },
+  {
+    
+      "name": "Lakshadweep Island Getaway",
+      "description": "Explore the untouched beauty of the Lakshadweep islands with pristine beaches and coral reefs.",
+      "image": "/images/lakshadweep.jpg",
+      "gallery": [
+        "/images/lakshadweep1.jpg",
+        "/images/lakshadweep2.jpg",
+        "/images/lakshadweep3.jpg",
+        "/images/lakshadweep4.jpg",
+        "/images/lakshadweep5.jpg",
+        "/images/lakshadweep6.jpg"
+      ]
+    }
+    
+     
+  
+]

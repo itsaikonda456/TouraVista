@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Kashmir Paradise",
+    "description": "Experience the breathtaking valleys, Shikara rides, and snow-capped mountains of Kashmir.",
+    "image": "/images/kashmir1.jpg",
+    "price": "$999"
+  },
+  {
+    "name": "Goa Beaches",
+    "description": "Relax on golden beaches, enjoy vibrant nightlife, and explore water sports in Goa.",
+    "image": "/images/goa2.jpg",
+    "price": "$799"
+  },
+  {
+    "name": "Rajasthan Royal Tour",
+    "description": "Live like royalty with palace stays, desert safaris, and majestic forts in Rajasthan.",
+    "image": "/images/rajasthan1.jpg",
+    "price": "$1,099"
+  },
+  {
+    "name": "Kerala Backwaters",
+    "description": "Cruise through tranquil backwaters and indulge in wellness and culture in Kerala.",
+    "image": "/images/kerala2.jpg",
+    "price": "$899"
+  },
+  {
+    "name": "Leh-Ladakh Adventure",
+    "description": "Explore rugged terrains, high-altitude lakes, and thrilling bike rides in Ladakh.",
+    "image": "/images/ladakh3.jpg",
+    "price": "$1,299"
+  },
+  {
+    "name": "Andaman Islands Escape",
+    "description": "Dive into clear waters, explore coral reefs, and unwind on serene beaches.",
+    "image": "/images/andaman1.jpg",
+    "price": "$1,199"
+  },
+  {
+    "name": "Agra Heritage Tour",
+    "description": "Step back in time with a visit to the iconic Taj Mahal and historic forts.",
+    "image": "/images/agra2.jpg",
+    "price": "$599"
+  },
+  {
+    "name": "Meghalaya Nature Trail",
+    "description": "Discover living root bridges, waterfalls, and pristine nature in Meghalaya.",
+    "image": "/images/meghalaya.jpg",
+    "price": "$999"
+  },
+  {
+    "name": "Ooty Hill Escape",
+    "description": "Wander through tea gardens, botanical wonders, and cool hill vibes in Ooty.",
+    "image": "/images/ooty1.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Varanasi Spiritual Journey",
+    "description": "Witness the sacred Ganga Aarti and explore temples in India’s spiritual capital.",
+    "image": "/images/varanasi.jpg",
+    "price": "$649"
+  },
+  {
+    "name": "Coorg Coffee Trails",
+    "description": "Breathe in the aroma of coffee plantations and soak in lush greenery in Coorg.",
+    "image": "/images/coorg1.jpg",
+    "price": "$749"
+  },
+  {
+    "name": "Hampi Heritage Tour",
+    "description": "Explore ancient ruins, temples, and river-side serenity in Hampi.",
+    "image": "/images/hampi.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Darjeeling Delight",
+    "description": "Sip tea in the hills, enjoy toy train rides, and view snowy peaks in Darjeeling.",
+    "image": "/images/darjeeling.jpg",
+    "price": "$799"
+  },
+  {
+    "name": "Sikkim Serenity",
+    "description": "Explore scenic lakes, peaceful monasteries, and Himalayan vistas in Sikkim.",
+    "image": "/images/sikkim.jpg",
+    "price": "$899"
+  },
+  {
+    "name": "Manali Snow Adventure",
+    "description": "Hit the slopes, visit Solang Valley, and enjoy snow-filled fun in Manali.",
+    "image": "/images/manali.jpg",
+    "price": "$999"
+  },
+  {
+    "name": "Shimla Getaway",
+    "description": "Wander through colonial streets and pine forests in this charming hill town.",
+    "image": "/images/shimla.jpg",
+    "price": "$899"
+  },
+  {
+    "name": "Udaipur Romantic Escape",
+    "description": "Sail across serene lakes and explore royal palaces in the city of lakes.",
+    "image": "/images/udaipur.jpg",
+    "price": "$849"
+  },
+  {
+    "name": "Mysore Heritage Walk",
+    "description": "Discover regal history, markets, and grand architecture in Mysore.",
+    "image": "/images/mysore.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Madurai Temple Tour",
+    "description": "Marvel at Dravidian architecture and spiritual sites in Madurai.",
+    "image": "/images/madurai.jpg",
+    "price": "$599"
+  },
+  {
+    "name": "Tirupati Pilgrimage",
+    "description": "Seek blessings at one of India's most sacred pilgrimage destinations.",
+    "image": "/images/tirupati.jpg",
+    "price": "$549"
+  },
+  {
+    "name": "Pondicherry French Escape",
+    "description": "Experience colonial charm, calm beaches, and spiritual vibes in Pondicherry.",
+    "image": "/images/pondicherry.jpg",
+    "price": "$749"
+  },
+  {
+    "name": "Mumbai City Life",
+    "description": "Feel the energy of India’s financial capital, full of culture and coastline.",
+    "image": "/images/mumbai.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Delhi Historical Tour",
+    "description": "Visit historic forts, mosques, and buzzing markets in India's capital city.",
+    "image": "/images/delhi.jpg",
+    "price": "$599"
+  },
+  {
+    "name": "Rishikesh Yoga Retreat",
+    "description": "Relax with yoga by the Ganges and adventure through rafting in Rishikesh.",
+    "image": "/images/rishikesh.jpg",
+    "price": "$799"
+  },
+  {
+    "name": "Haridwar Spiritual Tour",
+    "description": "Explore ancient temples and witness the divine Ganga Aarti at Haridwar.",
+    "image": "/images/haridwar.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Kanyakumari Sunset Tour",
+    "description": "Witness the union of seas and stunning sunsets in Kanyakumari.",
+    "image": "/images/kanyakumari.jpg",
+    "price": "$649"
+  },
+  {
+    "name": "Munnar Green Hills",
+    "description": "Roam lush hills and tea gardens in the scenic paradise of Munnar.",
+    "image": "/images/munnar.jpg",
+    "price": "$899"
+  },
+  {
+    "name": "Alleppey Houseboat Bliss",
+    "description": "Enjoy houseboat cruises and peaceful waters in Alleppey’s backwaters.",
+    "image": "/images/alleppey.jpg",
+    "price": "$849"
+  },
+  {
+    "name": "Chikmagalur Coffee Tour",
+    "description": "Wake up to misty mornings and fresh brews in Chikmagalur's hills.",
+    "image": "/images/chikmagalur.jpg",
+    "price": "$799"
+  },
+  {
+    "name": "Bangalore Tech City Tour",
+    "description": "Explore the Silicon Valley of India with parks, palaces, and tech hubs.",
+    "image": "/images/bangalore.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Hyderabad Nizam Tour",
+    "description": "Discover the legacy of the Nizams and taste iconic Hyderabadi biryani.",
+    "image": "/images/hyderabad.jpg",
+    "price": "$749"
+  },
+  {
+    "name": "Kolkata Culture Trip",
+    "description": "Enjoy colonial charm, literary history, and street food in Kolkata.",
+    "image": "/images/kolkata.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Amritsar Golden Tour",
+    "description": "Visit the Golden Temple and experience the patriotic Wagah ceremony.",
+    "image": "/images/amritsar.jpg",
+    "price": "$599"
+  },
+  {
+    "name": "Chennai Cultural Circuit",
+    "description": "Walk the Marina Beach and explore rich temple traditions in Chennai.",
+    "image": "/images/chennai.jpg",
+    "price": "$649"
+  },
+  {
+    "name": "Bikaner Desert Safari",
+    "description": "Ride camels, enjoy folk shows, and camp under desert skies in Bikaner.",
+    "image": "/images/bikaner.jpg",
+    "price": "$899"
+  },
+  {
+    "name": "Mount Abu Retreat",
+    "description": "Escape to the cool hills and tranquil lakes of Rajasthan’s only hill station.",
+    "image": "/images/mountabu.jpg",
+    "price": "$749"
+  },
+  {
+    "name": "Mahabalipuram Heritage",
+    "description": "Explore rock-cut temples and coastal beauty in Mahabalipuram.",
+    "image": "/images/mahabalipuram.jpg",
+    "price": "$699"
+  },
+  {
+    "name": "Aurangabad Caves & Forts",
+    "description": "Discover ancient art in the Ajanta & Ellora caves and historic forts.",
+    "image": "/images/aurangabad.jpg",
+    "price": "$749"
+  },
+  {
+    "name": "Konark Sun Temple Tour",
+    "description": "Visit the magnificent Sun Temple and nearby beach landscapes.",
+    "image": "/images/konark.jpg",
+    "price": "$649"
+  },
+  {
+    "name": "Sundarbans Wildlife Safari",
+    "description": "Cruise the mangroves in search of Royal Bengal tigers and exotic birds.",
+    "image": "/images/sundarbans.jpg",
+    "price": "$899"
+  },
+  {
+    "name": "Ranthambore Tiger Safari",
+    "description": "Embark on thrilling safaris to spot tigers in Ranthambore National Park.",
+    "image": "/images/ranthambore.jpg",
+    "price": "$999"
+  },
+  {
+    "name": "Jim Corbett Wild Adventure",
+    "description": "Explore forests, spot wildlife, and enjoy nature at Jim Corbett.",
+    "image": "/images/corbett.jpg",
+    "price": "$899"
+  },
+  {
+    "name": "Khajuraho Temple Tour",
+    "description": "Marvel at intricate temple carvings and attend cultural shows.",
+    "image": "/images/khajuraho.jpg",
+    "price": "$799"
+  },
+  {
+    "name": "Nainital Lake Retreat",
+    "description": "Sail on shimmering lakes and stroll through pine-scented streets.",
+    "image": "/images/nainital.jpg",
+    "price": "$849"
+  },
+  {
+    "name": "Daman & Diu Island Escape",
+    "description": "Experience calm island vibes, clean beaches, and water fun.",
+    "image": "/images/daman.jpg",
+    "price": "$899"
+  }
+]

@@ -1,0 +1,153 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #1a2238;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between; /* TravelEase on left, close button on right */
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-container h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-menu {
+  padding: 20px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 18px 25px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.nav-link span {
+  margin-left: 15px;
+}
+
+.nav-link.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile Toggle Button - Only for mobile */
+.mobile-toggle {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  cursor: pointer;
+  color: #1a2238;
+  font-size: 24px;
+}
+
+/* Close Button - Only visible on mobile */
+.close-btn {
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  transition: all 0.3s ease;
+  display: none; /* Hidden on large screens */
+}
+
+.close-btn:hover {
+  color: #f44336;
+}
+
+/* Sidebar Behavior for Different Screens */
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .mobile-toggle {
+    display: block; /* Show toggle button only on mobile */
+  }
+
+  .close-btn {
+    display: block; /* Show close button on mobile */
+  }
+
+  .nav-link {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+
+  .logo-container h2 {
+    font-size: 18px; /* Smaller font for mobile */
+    text-align: center; /* Ensure it stays visible */
+    flex-grow: 1; /* Helps keep it centered */
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-toggle {
+    display: none; /* Hide toggle button on larger screens */
+  }
+
+  .close-btn {
+    display: none; /* Hide close button on larger screens */
+  }
+
+  .sidebar {
+    transform: translateX(0); /* Keep sidebar always open on laptops */
+  }
+}
+
+/*  User profile css  */
+.user-profile {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  margin-bottom: 8px;
+}
+
+.user-name {
+  color: #fff;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+h2{
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,74 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #1a2238;
+  margin-bottom: 1rem;
+}
+
+.featured-destinations .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+  }
+}
+
+.modal-image {
+  width: 100%; /* Ensures full width */
+  height: 120px; /* Further reduced height */
+  object-fit: cover; /* Ensures images fit without distortion */
+  border-radius: 8px; /* Smooth corners */
+}
+
+@media (max-width: 768px) {
+  .modal-image {
+    height: 100px; /* Smaller height for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .modal-image {
+    height: 80px; /* Further reduced for mobiles */
+  }
+}
+.modal-content {
+  background: rgba(218, 218, 218, 0.9); /* Slight transparency */
+  backdrop-filter: blur(5px); /* Soft blur effect */
+  border-radius: 10px; /* Smooth corners */
+}
+

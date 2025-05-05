@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Kashmir Paradise",
+    "price": "$999",
+    "image": "/images/kashmir1.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel accommodation",
+      "Shikara ride",
+      "Gulmarg tour"
+    ]
+  },
+  {
+    "name": "Goa Beaches",
+    "price": "$799",
+    "image": "/images/goa2.jpg",
+    "includes": [
+      "Flight tickets",
+      "Beach resort stay",
+      "Water sports",
+      "Nightlife experience"
+    ]
+  },
+  {
+    "name": "Rajasthan Royal Tour",
+    "price": "$1,099",
+    "image": "/images/rajasthan1.jpg",
+    "includes": [
+      "Flight tickets",
+      "Palace stay",
+      "Camel safari",
+      "Fort tours"
+    ]
+  },
+  {
+    "name": "Kerala Backwaters",
+    "price": "$899",
+    "image": "/images/kerala2.jpg",
+    "includes": [
+      "Flight tickets",
+      "Houseboat stay",
+      "Ayurvedic massage",
+      "Cultural show"
+    ]
+  },
+  {
+    "name": "Leh-Ladakh Adventure",
+    "price": "$1,299",
+    "image": "/images/ladakh3.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel accommodation",
+      "Bike ride",
+      "Pangong Lake visit"
+    ]
+  },
+  {
+    "name": "Andaman Islands Escape",
+    "price": "$1,199",
+    "image": "/images/andaman1.jpg",
+    "includes": [
+      "Flight tickets",
+      "Beach resort stay",
+      "Scuba diving",
+      "Cellular Jail tour"
+    ]
+  },
+  {
+    "name": "Agra Heritage Tour",
+    "price": "$599",
+    "image": "/images/agra2.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Taj Mahal entry",
+      "Guided tour"
+    ]
+  },
+  {
+    "name": "Meghalaya Nature Trail",
+    "price": "$999",
+    "image": "/images/meghalaya.jpg",
+    "includes": [
+      "Flight tickets",
+      "Homestay experience",
+      "Living root bridge tour",
+      "Waterfall visit"
+    ]
+  },
+  {
+    "name": "Ooty Hill Escape",
+    "price": "$699",
+    "image": "/images/ooty1.jpg",
+    "includes": [
+      "Train tickets",
+      "Resort stay",
+      "Botanical garden tour",
+      "Tea plantation visit"
+    ]
+  },
+  {
+    "name": "Varanasi Spiritual Journey",
+    "price": "$649",
+    "image": "/images/varanasi.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Ganga aarti experience",
+      "Temple tour"
+    ]
+  },
+  {
+    "name": "Coorg Coffee Trails",
+    "price": "$749",
+    "image": "/images/coorg1.jpg",
+    "includes": [
+      "Resort stay",
+      "Coffee estate tour",
+      "Nature walk",
+      "Local transport"
+    ]
+  },
+  {
+    "name": "Hampi Heritage Tour",
+    "price": "$699",
+    "image": "/images/hampi.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Temple tour",
+      "Coracle ride"
+    ]
+  },
+  {
+    "name": "Darjeeling Delight",
+    "price": "$799",
+    "image": "/images/darjeeling.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel stay",
+      "Toy train ride",
+      "Tea estate tour"
+    ]
+  },
+  {
+    "name": "Sikkim Serenity",
+    "price": "$899",
+    "image": "/images/sikkim.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel accommodation",
+      "Tsomgo Lake visit",
+      "Monastery tour"
+    ]
+  },
+  {
+    "name": "Manali Snow Adventure",
+    "price": "$999",
+    "image": "/images/manali.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel accommodation",
+      "Skiing experience",
+      "Solang Valley tour"
+    ]
+  },
+  {
+    "name": "Shimla Getaway",
+    "price": "$899",
+    "image": "/images/shimla.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Mall Road tour",
+      "Kufri visit"
+    ]
+  },
+  {
+    "name": "Udaipur Romantic Escape",
+    "price": "$849",
+    "image": "/images/udaipur.jpg",
+    "includes": [
+      "Flight tickets",
+      "Lake view hotel",
+      "Boat ride",
+      "Palace visit"
+    ]
+  },
+  {
+    "name": "Mysore Heritage Walk",
+    "price": "$699",
+    "image": "/images/mysore.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel stay",
+      "Mysore Palace tour",
+      "Local sightseeing"
+    ]
+  },
+  {
+    "name": "Madurai Temple Tour",
+    "price": "$599",
+    "image": "/images/madurai.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Meenakshi temple visit",
+      "Cultural tour"
+    ]
+  },
+  {
+    "name": "Tirupati Pilgrimage",
+    "price": "$549",
+    "image": "/images/tirupati.jpg",
+    "includes": [
+      "Train tickets",
+      "Darshan booking",
+      "Hotel stay",
+      "Guide service"
+    ]
+  },
+  {
+    "name": "Pondicherry French Escape",
+    "price": "$749",
+    "image": "/images/pondicherry.jpg",
+    "includes": [
+      "Train tickets",
+      "Beach resort stay",
+      "Auroville visit",
+      "Cycling tour"
+    ]
+  },
+  {
+    "name": "Mumbai City Life",
+    "price": "$699",
+    "image": "/images/mumbai.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel accommodation",
+      "City tour",
+      "Marine Drive evening"
+    ]
+  },
+  {
+    "name": "Delhi Historical Tour",
+    "price": "$599",
+    "image": "/images/delhi.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Monument tours",
+      "Rickshaw ride"
+    ]
+  },
+  {
+    "name": "Rishikesh Yoga Retreat",
+    "price": "$799",
+    "image": "/images/rishikesh.jpg",
+    "includes": [
+      "Train tickets",
+      "Ashram stay",
+      "Yoga sessions",
+      "Ganga rafting"
+    ]
+  },
+  {
+    "name": "Haridwar Spiritual Tour",
+    "price": "$699",
+    "image": "/images/haridwar.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel stay",
+      "Ganga aarti",
+      "Temple visits"
+    ]
+  },
+  {
+    "name": "Kanyakumari Sunset Tour",
+    "price": "$649",
+    "image": "/images/kanyakumari.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Sunset point",
+      "Vivekananda Rock visit"
+    ]
+  },
+  {
+    "name": "Munnar Green Hills",
+    "price": "$899",
+    "image": "/images/munnar.jpg",
+    "includes": [
+      "Flight tickets",
+      "Resort stay",
+      "Tea gardens visit",
+      "Wildlife sanctuary tour"
+    ]
+  },
+  {
+    "name": "Alleppey Houseboat Bliss",
+    "price": "$849",
+    "image": "/images/alleppey.jpg",
+    "includes": [
+      "Flight tickets",
+      "Houseboat cruise",
+      "All meals",
+      "Local village tour"
+    ]
+  },
+  {
+    "name": "Chikmagalur Coffee Tour",
+    "price": "$799",
+    "image": "/images/chikmagalur.jpg",
+    "includes": [
+      "Resort stay",
+      "Coffee plantation visit",
+      "Trekking",
+      "Local guide"
+    ]
+  },
+  {
+    "name": "Bangalore Tech City Tour",
+    "price": "$699",
+    "image": "/images/bangalore.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel accommodation",
+      "City tour",
+      "Lalbagh visit"
+    ]
+  },
+  {
+    "name": "Hyderabad Nizam Tour",
+    "price": "$749",
+    "image": "/images/hyderabad.jpg",
+    "includes": [
+      "Flight tickets",
+      "Hotel accommodation",
+      "Charminar visit",
+      "Biryani tasting"
+    ]
+  },
+  {
+    "name": "Kolkata Culture Trip",
+    "price": "$699",
+    "image": "/images/kolkata.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel stay",
+      "Victoria Memorial visit",
+      "Street food tour"
+    ]
+  },
+  {
+    "name": "Amritsar Golden Tour",
+    "price": "$599",
+    "image": "/images/amritsar.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Golden Temple visit",
+      "Wagah border ceremony"
+    ]
+  },
+  {
+    "name": "Chennai Cultural Circuit",
+    "price": "$649",
+    "image": "/images/chennai.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Marina Beach",
+      "Temple tour"
+    ]
+  },
+  {
+    "name": "Bikaner Desert Safari",
+    "price": "$899",
+    "image": "/images/bikaner.jpg",
+    "includes": [
+      "Flight tickets",
+      "Camp stay",
+      "Camel ride",
+      "Folk performance"
+    ]
+  },
+  {
+    "name": "Mount Abu Retreat",
+    "price": "$749",
+    "image": "/images/mountabu.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Dilwara Temples visit",
+      "Nakki Lake boating"
+    ]
+  },
+  {
+    "name": "Mahabalipuram Heritage",
+    "price": "$699",
+    "image": "/images/mahabalipuram.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Shore Temple tour",
+      "Cultural dance show"
+    ]
+  },
+  {
+    "name": "Aurangabad Caves & Forts",
+    "price": "$749",
+    "image": "/images/aurangabad.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Ellora & Ajanta caves",
+      "Fort visit"
+    ]
+  },
+  {
+    "name": "Konark Sun Temple Tour",
+    "price": "$649",
+    "image": "/images/konark.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel stay",
+      "Temple visit",
+      "Beach tour"
+    ]
+  },
+  {
+    "name": "Sundarbans Wildlife Safari",
+    "price": "$899",
+    "image": "/images/sundarbans.jpg",
+    "includes": [
+      "Train tickets",
+      "Boat safari",
+      "Guide service",
+      "Local stay"
+    ]
+  },
+  {
+    "name": "Ranthambore Tiger Safari",
+    "price": "$999",
+    "image": "/images/ranthambore.jpg",
+    "includes": [
+      "Train tickets",
+      "Resort stay",
+      "Jeep safari",
+      "National park entry"
+    ]
+  },
+  {
+    "name": "Jim Corbett Wild Adventure",
+    "price": "$899",
+    "image": "/images/corbett.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel stay",
+      "Safari ride",
+      "Bonfire night"
+    ]
+  },
+  {
+    "name": "Khajuraho Temple Tour",
+    "price": "$799",
+    "image": "/images/khajuraho.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Temple entry",
+      "Light & Sound show"
+    ]
+  },
+  {
+    "name": "Nainital Lake Retreat",
+    "price": "$849",
+    "image": "/images/nainital.jpg",
+    "includes": [
+      "Train tickets",
+      "Hotel accommodation",
+      "Boating",
+      "Mall Road walk"
+    ]
+  },
+  {
+    "name": "Daman & Diu Island Escape",
+    "price": "$899",
+    "image": "/images/daman.jpg",
+    "includes": [
+      "Train tickets",
+      "Beach resort stay",
+      "Local sightseeing",
+      "Water sports"
+    ]
+  }
+]
