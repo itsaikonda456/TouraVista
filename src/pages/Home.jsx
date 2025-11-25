@@ -12,27 +12,26 @@ const Home = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedDestination, setSelectedDestination] = useState(null);
   const [error, setError] = useState(null); // Added error state
+useEffect(() => {
+  AOS.init({ duration: 1000, once: true, easing: "ease-in-out" });
 
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true, easing: "ease-in-out" });
-  
-    // Modify the fetch URL to ensure it correctly points to /api/home
-    fetch("http://localhost:5000/api/home")
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error('Failed to fetch home destinations');
-        }
-        return res.json();
-      })
-      .then((data) => {
-        // No need to reference 'featuredDestinations' anymore, as the data is directly an array
-        setDestinations(data); 
-      })
-      .catch((err) => {
-        console.error('Error fetching featured destinations:', err);
-        setError(err.message); // Set error message
-      });
-  }, []);
+  // Fetch the static JSON file from public/data/
+  fetch("/data/HomeFeaturedDestinations.json")
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error("Failed to load featured destinations JSON");
+      }
+      return res.json();
+    })
+    .then((data) => {
+      setDestinations(data); // directly set the JSON array
+    })
+    .catch((err) => {
+      console.error("Error loading destinations:", err);
+      setError(err.message);
+    });
+}, []);
+
   
 
 
@@ -108,49 +107,48 @@ const Home = () => {
       </section>
 
       {/* Featured Destinations */}
-      <section className="featured-destinations py-5 bg-light">
-        <Container>
-          <h2 className="section-title text-center" data-aos="fade-up">
-            Featured Destinations
-          </h2>
-          <Row>
-            {/* Check for error or if destinations are loaded */}
-            {error ? (
-              <div className="error-message text-center">
-                <p>Something went wrong while fetching destinations: {error}</p>
-              </div>
-            ) : (
-              Array.isArray(destinations) && destinations.map((destination, index) => (
-                <Col
-                  md={4}
-                  key={index}
-                  className="mb-4"
-                  data-aos="zoom-in"
-                  data-aos-delay={index * 200}
+<section className="featured-destinations py-5 bg-light">
+  <Container>
+    <h2 className="section-title text-center" data-aos="fade-up">
+      Featured Destinations
+    </h2>
+
+    <Row>
+      {error ? (
+        <div className="error-message text-center">
+          <p>Something went wrong while fetching destinations: {error}</p>
+        </div>
+      ) : (
+        Array.isArray(destinations) &&
+        destinations.map((destination, index) => (
+          <Col
+            md={4}
+            key={index}
+            className="mb-4"
+          >
+            <Card>
+              <Card.Img
+                variant="top"
+                src={destination.image}
+                alt={destination.name}
+              />
+              <Card.Body>
+                <Card.Title>{destination.name}</Card.Title>
+                <Card.Text>{destination.description}</Card.Text>
+                <Button
+                  variant="primary"
+                  onClick={() => handleShowModal(destination)}
                 >
-                  <Card>
-                    <Card.Img
-                      variant="top"
-                      src={destination.image}
-                      alt={destination.name}
-                    />
-                    <Card.Body>
-                      <Card.Title>{destination.name}</Card.Title>
-                      <Card.Text>{destination.description}</Card.Text>
-                      <Button
-                        variant="primary"
-                        onClick={() => handleShowModal(destination)}
-                      >
-                        Learn More
-                      </Button>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              ))
-            )}
-          </Row>
-        </Container>
-      </section>
+                  Learn More
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))
+      )}
+    </Row>
+  </Container>
+</section>
 
    {/* Testimonials Section */}
 <section className="testimonials py-5 bg-white">
